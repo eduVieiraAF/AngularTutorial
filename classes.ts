@@ -1,5 +1,12 @@
+import { IsOnline, Gamer } from './interfaces'
+
+
 //* no constuctors
-class Employee {
+class Employee implements IsOnline {
+  IsOnline(): Gamer {
+    return { name: this.name, id: this.id, address: address, email: this.email }
+  }
+
   id!: number;
   name!: string;
   address!: string;

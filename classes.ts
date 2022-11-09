@@ -51,7 +51,7 @@ class Staff {
   }
 
   static showPay(): number {
-    // can only be accessed by Class name, not obect
+    // can only be accessed by Class, not object.
     return 123330;
   }
 }

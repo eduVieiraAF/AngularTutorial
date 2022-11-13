@@ -6,7 +6,11 @@ var __classPrivateFieldSet = (this && this.__classPrivateFieldSet) || function (
     return (kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value)), value;
 };
 var _Staff_isOnline;
+Object.defineProperty(exports, "__esModule", { value: true });
 class Employee {
+    IsOnline() {
+        return { name: this.name, id: this.id, address: address, email: this.email };
+    }
 }
 let emp1 = new Employee();
 emp1.id = 1;

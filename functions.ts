@@ -39,5 +39,5 @@ function getItem<Type>(items: Type[]): Type[] {
 let concatString = getItem<string>(["E", "d", "u"]);
 let concatNumbers = getItem<number>([1, 2, 3, 4, 5]);
 
-console.log(concatString);
+console.log(concatString.length);
 console.log(concatNumbers);
